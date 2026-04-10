@@ -22,9 +22,9 @@ The objective of this project is to analyze and understand the Titanic dataset u
 ## ⚙️ Steps Performed
 1. Loaded dataset using Pandas
 2. Displayed first few rows of data
-3. Generated summary statistics (mean, median, std, etc.)
+3. Generated summary statistics (mean, std, min, max)
 4. Checked missing values
-5. Performed data visualization:
+5. Visualized data using:
    - Histograms (Age, Fare)
    - Boxplots (Outlier detection)
    - Countplot (Survival count)
@@ -36,32 +36,32 @@ The objective of this project is to analyze and understand the Titanic dataset u
 ## 📊 Output Visualizations
 
 ### Age Distribution
-![Age Distribution](age_distribution.jpg)
+![Age Distribution](graph_output/age_distribution.jpg)
 
 ### Fare Distribution
-![Fare Distribution](fare_distribution.jpg)
+![Fare Distribution](graph_output/fare_distribution.jpg)
 
 ### Age Boxplot
-![Age Boxplot](age_boxplot.jpg)
+![Age Boxplot](graph_output/age_boxplot.jpg)
 
 ### Fare Boxplot
-![Fare Boxplot](fare_boxplot.jpg)
+![Fare Boxplot](graph_output/fare_boxplot.jpg)
 
 ### Survival Count
-![Survival Count](survival_count.jpg)
+![Survival Count](graph_output/survival_count.jpg)
 
 ### Correlation Matrix
-![Correlation Matrix](correlation_matrix.jpg)
+![Correlation Matrix](graph_output/correlation_matrix.jpg)
 
 ### Pairplot (Feature Relationships)
-![Pairplot](pairplot.jpg)
+![Pairplot](graph_output/pairplot.jpg)
 
 ---
 
 ## 📊 Key Insights
 - Most passengers are between age 20–40
 - Age feature contains missing values
-- Cabin column has a large number of missing values
+- Cabin column has many missing values
 - Fare shows high variation and contains outliers
 - Age distribution is slightly right-skewed
 - Weak correlation between Age, Fare, and Pclass
