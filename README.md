@@ -33,28 +33,7 @@ The objective of this project is to analyze and understand the Titanic dataset u
 
 ---
 
-## 📊 Output Visualizations
 
-### Age Distribution
-![Age Distribution](age_distribution.jpg)
-
-### Fare Distribution
-![Fare Distribution](fare_distribution.jpg)
-
-### Age Boxplot
-![Age Boxplot](age_boxplot.jpg)
-
-### Fare Boxplot
-![Fare Boxplot](fare_boxplot.jpg)
-
-### Survival Count
-![Survival Count](survival_count.jpg)
-
-### Correlation Matrix
-![Correlation Matrix](correlation_matrix.jpg)
-
-### Pairplot (Feature Relationships)
-![Pairplot](pairplot.jpg)
 
 ---
 
